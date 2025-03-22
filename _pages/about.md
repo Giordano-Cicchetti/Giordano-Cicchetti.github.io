@@ -15,7 +15,7 @@ profile:
       <p>Via Eudossiana 18 - 00184 Rome, Italy </p>
 
 news: false # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
@@ -28,8 +28,6 @@ I completed both the **BSc** and the **MSc** at [Sapienza University Of Rome](ht
 My research is focused on the field of Representation Learning, with a particular emphasis on **Multimodal Representation Learning**. My aim is to explore the intricate alignment of latent representations across diverse modalities, unraveling how these can be unified within a shared latent space, guided by the underlying semantics of the input data
 
 
-
-Site under construction
 
 
 
