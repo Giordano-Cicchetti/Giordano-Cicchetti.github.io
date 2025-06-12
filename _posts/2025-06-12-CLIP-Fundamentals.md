@@ -1,18 +1,18 @@
 ---
 layout: post
-title: a post with image galleries
-date: 2024-12-04 01:59:00
-description: this is what included image galleries could look like
-tags: formatting images
+title: CLIP FUNDAMENTALS
+date: 2025-06-12 01:59:00
+description: Simple introduction to the CLIP (Contrastive Language-Image Pretraining) world.
+tags: Contrastive-Learning
 categories: sample-posts
-thumbnail: assets/img/9.jpg
+thumbnail: assets\img\CLIP_blog\CLIP_Third_image.png
 images:
   lightbox2: true
   photoswipe: true
   spotlight: true
   venobox: true
 ---
-#  CLIP FUNDAMENTALS
+
 
 ### Topic: CLIP: Contrastive Language-Image Pretraining
 
@@ -108,7 +108,7 @@ International conference on machine learning. PMLR, 2023.
 
 ### Diagram
 
-![Figure description](./CLIP_first_image.png)
+![Figure description](assets\img\CLIP_blog\CLIP_first_image.png)
 
 ## Section 2: CLIP Loss Function
 
@@ -349,7 +349,7 @@ print(f"The final CLIP loss is {loss.item():.2f}")
 ```
 
 
-![Figure description](./CLIP_second_image.png)
+![Figure description](assets/img/CLIP_blog/CLIP_second_image.png)
 ### Code
 
 ``` python
@@ -415,7 +415,7 @@ Retrieval tasks:
     where users describe what they want to see.
 
 
-![Figure description](./CLIP_Third_image.png)
+![Figure description](assets/img/CLIP_blog/CLIP_Third_image.png)
 
 ``` python
 def compute_retrieval_metrics(x: torch.Tensor):
@@ -658,8 +658,8 @@ plt.ylabel('Temperature')
 plt.grid(True)
 plt.show()
 ```
-![Figure description](./clip_loss.png)
-![Figure description](./clip_temperature.png)
+![Figure description](assets/img/CLIP_blog/clip_loss.png)
+![Figure description](assets/img/CLIP_blog/clip_temperature.png)
 
 ## Section 4: Validation session
 
