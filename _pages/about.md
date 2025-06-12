@@ -17,6 +17,10 @@ profile:
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
 Hey there👋, I am Giordano, a **Computer Science Engineer** and **Ph.D. student** in [Information and Communication Technologies (ICT)](https://phd.uniroma1.it/web/INFORMATION-AND-COMMUNICATION-TECHNOLOGY-(ICT)_nD3552_EN.aspx) at [Sapienza University of Rome](https://www.uniroma1.it/it/).
