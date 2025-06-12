@@ -5,7 +5,7 @@ date: 2025-06-12 01:59:00
 description: Simple introduction to the CLIP (Contrastive Language-Image Pretraining) world.
 tags: Contrastive-Learning
 categories: sample-posts
-thumbnail: assets\img\CLIP_blog\CLIP_Third_image.png
+thumbnail: assets/img/CLIP_blog/CLIP_Third_image.png
 images:
   lightbox2: true
   photoswipe: true
@@ -108,7 +108,17 @@ International conference on machine learning. PMLR, 2023.
 
 ### Diagram
 
-![Figure description](assets\img\CLIP_blog\CLIP_first_image.png)
+![Figure description](assets/img/CLIP_blog/CLIP_first_image.png)
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        % include figure.liquid loading="eager" path="assets/img/CLIP_blog/CLIP_first_image.png" class="img-fluid rounded z-depth-1" %
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/CLIP_blog/CLIP_first_image.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 
 ## Section 2: CLIP Loss Function
 
