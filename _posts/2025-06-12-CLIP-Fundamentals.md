@@ -112,9 +112,6 @@ International conference on machine learning. PMLR, 2023.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        % include figure.liquid loading="eager" path="assets/img/CLIP_blog/CLIP_first_image.png" class="img-fluid rounded z-depth-1" %
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/CLIP_blog/CLIP_first_image.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -360,6 +357,12 @@ print(f"The final CLIP loss is {loss.item():.2f}")
 
 
 ![Figure description](assets/img/CLIP_blog/CLIP_second_image.png)
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/CLIP_blog/CLIP_second_image.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 ### Code
 
 ``` python
@@ -426,6 +429,12 @@ Retrieval tasks:
 
 
 ![Figure description](assets/img/CLIP_blog/CLIP_Third_image.png)
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/CLIP_blog/CLIP_Third_image.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ``` python
 def compute_retrieval_metrics(x: torch.Tensor):
@@ -669,7 +678,17 @@ plt.grid(True)
 plt.show()
 ```
 ![Figure description](assets/img/CLIP_blog/clip_loss.png)
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/CLIP_blog/clip_loss.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 ![Figure description](assets/img/CLIP_blog/clip_temperature.png)
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/CLIP_blog/clip_temperature.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ## Section 4: Validation session
 
