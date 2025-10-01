@@ -71,6 +71,12 @@
   ],
   "publications": [
     {
+      "name": "A TRIANGLE Enables Multimodal Alignment Beyond Cosine Similarity",
+      "publisher": "In Advances in Neural Information Processing Systems (NeurIPS), 2025",
+      "releaseDate": "2025",
+      "summary": ""
+    },
+    {
       "name": "Gramian Multimodal Representation Learning and Alignment",
       "publisher": "ICLR 2025",
       "releaseDate": "2025",
